@@ -5,7 +5,7 @@
   "related_identifiers": [
     {
       "scheme": "url",
-      "identifier": "https://github.com/GLAM-Workbench/trove-newspapers-corrections/tree/v1.2",
+      "identifier": "https://github.com/GLAM-Workbench/trove-newspapers-corrections/tree/v1.3",
       "relation": "isDerivedFrom",
       "resource_type": "software"
     },
@@ -22,7 +22,7 @@
       "resource_type": "other"
     }
   ],
-  "version": "v1.2",
+  "version": "v1.3",
   "upload_type": "dataset",
   "keywords": [
     "digital humanities",
@@ -30,7 +30,7 @@
     "newspapers",
     "GLAM Workbench"
   ],
-  "publication_date": "2021-04-27",
+  "publication_date": "2022-01-21",
   "creators": [
     {
       "orcid": "0000-0001-7956-4498",
@@ -38,5 +38,5 @@
     }
   ],
   "access_right": "open",
-  "description": "<p>Current version: <a href=\"https://github.com/GLAM-Workbench/trove-newspapers-corrections/releases/tag/v1.2\">v1.2</a></p> <p>OCR errors in Trove’s digitised newspapers can be corrected by users. To help understand patterns in newspaper correction, this dataset has been created to record the number of articles with corrections in each digitised newspaper. By retrieving the total number of articles in each newspaper, it’s then possible to calculate the percentage of articles with corrections.</p> <p>The data was extracted from the Trove API using <a href=\"https://glam-workbench.net/trove-newspapers/Analysing_OCR_corrections/\">this notebook</a> from the <a href=\"https://glam-workbench.net/trove-newspapers/\">Trove newspapers</a> section of the GLAM Workbench.</p> <p>The data is available as a CSV file entitled <code>corrections_by_title.csv</code> and contains the following fields:</p> <ul> <li><code>id</code> – the Trove identitifer of the newsspaper title</li> <li><code>title</code> – the name of the newspaper</li> <li><code>articles_with_corrections</code> – the number of articles with corrections</li> <li><code>total_articles</code> – the total number of articles from the newspaper in Trove</li> <li><code>proportion</code> – the proportion of articles with corrections</li> <li><code>percentage_with_corrections</code> – the percentage of articles with corrections</li> <li><code>title_url</code> – url to the newspaper title page in Trove</li> </ul> <hr /> <p>This repository is part of the <a href=\"https://glam-workbench.net/\">GLAM Workbench</a>.<br /> If you think this project is worthwhile, you might like <a href=\"https://github.com/sponsors/wragge?o=esb\">to sponsor me on GitHub</a>.</p>"
+  "description": "<p>Current version: <a href=\"https://github.com/GLAM-Workbench/trove-newspapers-corrections/releases/tag/v1.3\">v1.3</a></p> <p>OCR errors in Trove’s digitised newspapers can be corrected by users. To help understand patterns in newspaper correction, this dataset has been created to record the number of articles with corrections in each digitised newspaper. By retrieving the total number of articles in each newspaper, it’s then possible to calculate the percentage of articles with corrections.</p> <p>The data was extracted from the Trove API using <a href=\"https://glam-workbench.net/trove-newspapers/Analysing_OCR_corrections/\">this notebook</a> from the <a href=\"https://glam-workbench.net/trove-newspapers/\">Trove newspapers</a> section of the GLAM Workbench.</p> <p>The data is available as a CSV file entitled <code>corrections_by_title.csv</code> and contains the following fields:</p> <ul> <li><code>id</code> – the Trove identitifer of the newsspaper title</li> <li><code>title</code> – the name of the newspaper</li> <li><code>articles_with_corrections</code> – the number of articles with corrections</li> <li><code>total_articles</code> – the total number of articles from the newspaper in Trove</li> <li><code>percentage_with_corrections</code> – the percentage of articles with corrections</li> </ul> <hr /> <p>This repository is part of the <a href=\"https://glam-workbench.net/\">GLAM Workbench</a>.<br /> If you think this project is worthwhile, you might like <a href=\"https://github.com/sponsors/wragge?o=esb\">to sponsor me on GitHub</a>.</p>"
 }
