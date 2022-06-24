@@ -1,6 +1,6 @@
 # Trove newspaper corrections
 
-Current version: [v1.3](https://github.com/GLAM-Workbench/trove-newspapers-corrections/releases/tag/v1.3)
+Current version: [v1.4](https://github.com/GLAM-Workbench/trove-newspapers-corrections/releases/tag/v1.4)
 
 OCR errors in Trove's digitised newspapers can be corrected by users. To help understand patterns in newspaper correction, this dataset has been created to record the number of articles with corrections in each digitised newspaper. By retrieving the total number of articles in each newspaper, it's then possible to calculate the percentage of articles with corrections.
 
