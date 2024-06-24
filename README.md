@@ -1,12 +1,34 @@
 # Trove newspaper corrections
 
-Current version: [v1.4](https://github.com/GLAM-Workbench/trove-newspapers-corrections/releases/tag/v1.4)
+Current version: [v2.0](https://github.com/GLAM-Workbench/trove-newspapers-corrections/releases/tag/v2.0)
 
-OCR errors in Trove's digitised newspapers can be corrected by users. To help understand patterns in newspaper correction, this dataset has been created to record the number of articles with corrections in each digitised newspaper. By retrieving the total number of articles in each newspaper, it's then possible to calculate the percentage of articles with corrections.
+OCR errors in Trove's digitised newspapers can be corrected by users. To help understand patterns in newspaper correction, this dataset has been created to record information about the number of articles with corrections.
 
 The data was extracted from the Trove API using [this notebook](https://glam-workbench.net/trove-newspapers/Analysing_OCR_corrections/) from the [Trove newspapers](https://glam-workbench.net/trove-newspapers/) section of the GLAM Workbench.
 
-The data is available as a CSV file entitled `corrections_by_title.csv` and contains the following fields:
+There are three files in the dataset:
+
+- `corrections_by_year.csv` – number of articles corrected in each publication year
+- `corrections_by_category.csv` – number of articles corrected in each Trove category
+- `corrections_by_title.csv` – number of articles corrected in each newspaper
+
+The files are in CSV format and contain the following fields.
+
+## `corrections_by_year.csv` 
+
+- `term` – the publication year
+- `total_results` – the number of articles with corrections
+- `total_articles` – the total number of articles
+- `proportion` – the proportion of articles with corrections
+
+## `corrections_by_category.csv` 
+
+- `term` – the category name
+- `total_results` – the number of articles with corrections
+- `total_articles` – the total number of articles
+- `proportion` – the proportion of articles with corrections
+
+## `corrections_by_title.csv` 
 
 - `id` – the Trove identitifer of the newsspaper title
 - `title` – the name of the newspaper
