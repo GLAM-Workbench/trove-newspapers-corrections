@@ -1,6 +1,8 @@
 # Trove newspaper corrections
 
-Current version: [v2.0](https://github.com/GLAM-Workbench/trove-newspapers-corrections/releases/tag/v2.0)
+Current version: [v2.1](https://github.com/GLAM-Workbench/trove-newspapers-corrections/releases/tag/v2.1)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12507383.svg)](https://zenodo.org/doi/10.5281/zenodo.12507383)
 
 OCR errors in Trove's digitised newspapers can be corrected by users. To help understand patterns in newspaper correction, this dataset has been created to record information about the number of articles with corrections.
 
